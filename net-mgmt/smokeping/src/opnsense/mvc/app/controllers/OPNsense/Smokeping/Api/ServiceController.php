@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  *    Copyright (C) 2021 Roman Plessl <roman.plessl@prunux.ch>
  *

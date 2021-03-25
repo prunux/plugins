@@ -1,7 +1,7 @@
-PLUGIN_NAME=		postfix
-PLUGIN_VERSION=		1.18
-PLUGIN_COMMENT=		SMTP mail relay
-PLUGIN_DEPENDS=		postfix-sasl
-PLUGIN_MAINTAINER=	m.muenz@gmail.com
+PLUGIN_NAME=		smokeping
+PLUGIN_VERSION=		0.1
+PLUGIN_COMMENT=		Smokeping
+PLUGIN_DEPENDS=		smokeping fping
+PLUGIN_MAINTAINER=	roman.plessl@prunux.ch
 
 .include "../../Mk/plugins.mk"
