@@ -40,7 +40,6 @@ function smokeping_services()
                 'start' => array('smokeping start'),
                 'stop' => array('smokeping stop'),
             ),
-            'name' => 'smokeping',
             'pidfile' => '/var/run/smokeping.pid'
         );
     }
