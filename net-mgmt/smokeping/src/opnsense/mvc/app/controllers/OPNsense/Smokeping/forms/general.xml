@@ -1,7 +1,7 @@
 <form>
     <field>
         <id>general.enabled</id>
-        <label>Enable Smokeping Agent</label>
+        <label>Enable Smokeping</label>
         <type>checkbox</type>
         <help>This will activate the smokeping agent.</help>
     </field>
@@ -15,7 +15,7 @@
         <id>general.slave_secret</id>
         <label>Slave Secret</label>
         <type>text</type>
-        <help>The authentication secret for the Smokeping Master</help>
+        <help>The authentication secret for the Smokeping Slave to the Master</help>
     </field>
     <field>
         <id>general.slave_name</id>

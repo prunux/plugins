@@ -2,7 +2,6 @@
   <Services>
     <Smokeping cssClass="fa fa-area-chart">
       <General order="10" url="/ui/smokeping/general/index"/>
-      <LogFile VisibleName="Log File" order="40" url="/ui/diagnostics/log/smokeping/smokeping"/>
     </Smokeping>
   </Services>
 </menu>

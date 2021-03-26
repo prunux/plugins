@@ -34,14 +34,14 @@ function smokeping_services()
 
     if (isset($config['OPNsense']['smokeping']['general']['enabled']) && $config['OPNsense']['smokeping']['general']['enabled'] == 1) {
         $services[] = array(
-            'description' => gettext('smokeping agent'),
+            'description' => gettext('smokeping daemon'),
             'configd' => array(
                 'restart' => array('smokeping restart'),
                 'start' => array('smokeping start'),
                 'stop' => array('smokeping stop'),
             ),
             'name' => 'smokeping',
-            'pidfile' => '/var/run/smokeping/smokeping.pid'
+            'pidfile' => '/var/run/smokeping.pid'
         );
     }
 

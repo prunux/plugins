@@ -1,7 +1,9 @@
 #!/bin/sh
 
-mkdir -p /var/log/telegraf
-chown -R telegraf:telegraf /var/log/telegraf
-chmod 750 /var/log/telegraf
+mkdir -p /var/log/smokeping
+chown -R root:wheel /var/log/smokeping
+chmod 750 /var/log/smokeping
 
-/usr/sbin/pw groupmod proxy -m telegraf
+mkdir -p /var/lib/smokeping
+chown -R root:wheel /var/lib/smokeping
+chmod 750 /var/lib/smokeping

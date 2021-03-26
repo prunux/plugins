@@ -42,7 +42,7 @@ class ServiceController extends ApiControllerBase
 {
 
     /**
-     * start Smokeping service (in background)
+     * start smokeping service (in background)
      * @return array
      */
     public function startAction()
@@ -59,7 +59,7 @@ class ServiceController extends ApiControllerBase
     }
 
     /**
-     * stop Smokeping service
+     * stop smokeping service
      * @return array
      */
     public function stopAction()
@@ -76,7 +76,7 @@ class ServiceController extends ApiControllerBase
     }
 
     /**
-     * restart Smokeping service
+     * restart smokeping service
      * @return array
      */
     public function restartAction()
@@ -121,7 +121,7 @@ class ServiceController extends ApiControllerBase
     }
 
     /**
-     * reconfigure Smokeping, generate config and reload
+     * reconfigure smokeping, generate config and reload
      */
     public function reconfigureAction()
     {
